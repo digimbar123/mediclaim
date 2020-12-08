@@ -6,7 +6,6 @@ pipeline {
             git 'https://github.com/digimbar123/mediclaim'
 		}
 	}
-    }
 	stage('Build') {
 		steps {
 			withSonarQubeEnv('sonar3') {
