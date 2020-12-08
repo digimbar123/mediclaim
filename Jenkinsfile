@@ -3,7 +3,7 @@ pipeline {
 	stages {
       stage('Git Checkout') {
          steps {
-            git 'git 'https://github.com/digimbar123/mediclaim''
+            git 'https://github.com/digimbar123/mediclaim''
 		}
 	}
     }
